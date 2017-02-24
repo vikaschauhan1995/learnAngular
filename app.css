@@ -1,0 +1,145 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.main-circle{
+	width:500px;
+	height:500px;
+	background-color:grey;
+	border-radius:50%;
+
+}
+.menu-char{
+	color:white;
+}
+
+.menu-items span{
+	font:26px Arail;
+	height:250px;
+	padding-top:20px;
+	position:absolute;
+	border:1px solid red;
+	width:27px;
+	margin-top:;
+	margin-left:-2px;
+	transform-origin:bottom center;
+}
+
+.char1{transform:rotate(6deg);}
+.char2{transform:rotate(12deg);}
+.char3{transform:rotate(18deg);}
+.char4{transform:rotate(24deg);}
+
+.abt-char1{transform:rotate(36deg);}
+.abt-char2{transform:rotate(42deg);}
+.abt-char3{transform:rotate(48deg);}
+.abt-char4{transform:rotate(54deg);}
+.abt-char5{transform:rotate(60deg);}
+.abt-char6{transform:rotate(66deg);}
+.abt-char7{transform:rotate(72deg);}
+.abt-char8{transform:rotate(78deg);}
+
+.consl-char1{transform:rotate(90deg);}
+.consl-char2{transform:rotate(96deg);}
+.consl-char3{transform:rotate(102deg);}
+.consl-char4{transform:rotate(108deg);}
+.consl-char5{transform:rotate(114deg);}
+.consl-char6{transform:rotate(120deg);}
+.consl-char7{transform:rotate(126deg);}
+.consl-char8{transform:rotate(132deg);}
+.consl-char9{transform:rotate(138deg);}
+.consl-char10{transform:rotate(144deg);}
+.consl-char11{transform:rotate(150deg);}
+
+.mark-char1{transform:rotate(162deg);}
+.mark-char2{transform:rotate(168deg);}
+.mark-char3{transform:rotate(174deg);}
+.mark-char4{transform:rotate(180deg);}
+.mark-char5{transform:rotate(186deg);}
+.mark-char6{transform:rotate(192deg);}
+.mark-char7{transform:rotate(198deg);}
+.mark-char8{transform:rotate(204deg);}
+.mark-char9{transform:rotate(210deg);}
+
+.pub-char1{transform:rotate(222deg);}
+.pub-char2{transform:rotate(228deg);}
+.pub-char3{transform:rotate(234deg);}
+.pub-char4{transform:rotate(240deg);}
+.pub-char5{transform:rotate(246deg);}
+.pub-char6{transform:rotate(252deg);}
+.pub-char7{transform:rotate(258deg);}
+.pub-char8{transform:rotate(264deg);}
+.pub-char9{transform:rotate(270deg);}
+.pub-char10{transform:rotate(276deg);}
+
+.pr-char1{transform:rotate(288deg);}
+.pr-char2{transform:rotate(294deg);}
+.pr-char3{transform:rotate(300deg);}
+.pr-char4{transform:rotate(306deg);}
+
+.cont-char1{transform:rotate(318deg);}
+.cont-char2{transform:rotate(324deg);}
+.cont-char3{transform:rotate(330deg);}
+.cont-char4{transform:rotate(336deg);}
+.cont-char5{transform:rotate(342deg);}
+.cont-char6{transform:rotate(348deg);}
+.cont-char7{transform:rotate(354deg);}
+
+.middle-menu-log{
+	height:300px;
+	width:300px;
+	margin-top:-400px;
+	border-radius:50%;
+	background-color:;
+}
+
+#hom-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.3s;
+}
+#abt-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.2s;
+}
+#consl-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.2s;
+}
+#mark-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.2s;
+}
+#pub-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.2s;
+}
+#pr-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.2s;
+}
+#cont-cont-field:hover .menu-char{
+	background-color:red;
+	transition:0.2s;
+}/*change background of menu 1*/
